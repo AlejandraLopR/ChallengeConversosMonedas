@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a602cf10-7b65-4995-9165-5a5aeae70f48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChallengeConversosMonedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challenge/convertidor/modulos/Moneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challenge/convertidor/modulos/MonedaExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challenge/convertidor/principal/ApiConsulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challenge/convertidor/principal/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a602cf10-7b65-4995-9165-5a5aeae70f48" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
