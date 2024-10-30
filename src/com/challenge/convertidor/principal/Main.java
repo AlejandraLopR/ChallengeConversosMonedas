@@ -18,6 +18,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
+        var valor ="";
         var key = "a28e443fc4addce0d1100f44";
         String direccion;
         double valorMoneda;
@@ -133,17 +134,17 @@ public class Main {
                 case 6:
                     try {
                         System.out.println("Escribe el nombre de la moneda a convertir");
-                        var busqueda = scanner.nextLine();
+                        var busqueda = scanner.next();
 
                         direccion = "https://v6.exchangerate-api.com/v6/" + key + "/latest/" + busqueda.toUpperCase();
                         MonedaExchange monedas = consultaApi.consultar(direccion);
                         Moneda monedaConvertir = new Moneda(monedas);
                         System.out.println("A que moneda desa convertir (solo se ingresa avrebiaciones como MXN O EUR): ");
-                        var moneda2 = scanner.nextLine();
-                        valorMoneda = monedaConvertir.consultaValor(moneda2.toUpperCase());
+                        valor = scanner.next();
+                        valorMoneda = monedaConvertir.consultaValor(valor.toUpperCase());
                         System.out.println("Ingrese el valor que desea Convertir: ");
                         cantidad = scanner.nextDouble();
-                        System.out.println("El valor de " + cantidad + " [" + busqueda.toUpperCase() + "] corresponde al valor final de =>> " + (cantidad * valorMoneda) + " [" + moneda2.toUpperCase() + "]");
+                        System.out.println("El valor de " + cantidad + " [" + busqueda.toUpperCase() + "] corresponde al valor final de =>> " + (cantidad * valorMoneda) + " [" + valor.toUpperCase() + "]");
                     }catch (NumberFormatException e) {
                         System.out.println(e.getMessage());
                     } catch (IllegalArgumentException e) {
