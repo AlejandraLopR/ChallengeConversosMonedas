@@ -24,5 +24,11 @@ Los cursos de formación de desarrollador Back-End se centran en el lenguaje de 
 El proyecto se encuntra finalizado.
 
 ## Características de la aplicación y demostración. 
-- La aplicación cuenta con una interfaz textual por medio de la consola que nos permite interactuar con el usuario. 
-
+- La aplicación cuenta con una interfaz textual por medio de la consola que nos permite interactuar con el usuario.
+<p align="center">
+  <img src="Prueba-1.JPG" alt="Descripción de la imagen" width="400">
+</p>
+-Para que el usario pudiera consultar las veces que desee el valor de una moneda, se incluyo el menu y sus funcionalidades en un bucle.
+<p align="center">
+  <img src="Prueba-1.JPG" alt="Descripción de la imagen" width="400">
+</p>
