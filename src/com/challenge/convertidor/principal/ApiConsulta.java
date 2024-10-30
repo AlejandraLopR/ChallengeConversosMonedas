@@ -18,18 +18,6 @@ public class ApiConsulta {
             .setPrettyPrinting()
             .create();
 
-    public HttpClient cliente (){
-        //Configura el cliente, y se cra una instancia de el
-        return HttpClient.newHttpClient();
-    }
-
-    public HttpRequest solicitud(String direccion){
-        return HttpRequest.newBuilder().
-                uri(URI.create(direccion)).
-                build();
-
-    }
-
     public MonedaExchange consultar(String direccion) throws IOException, InterruptedException {
             //Configura el cliente, y se cra una instancia de el
             HttpClient client =HttpClient.newHttpClient();
